@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Arvo);
+
+
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+  -webkit-font-smoothing: antialiased;
+  font: normal 14px tahoma,sans-serif;
+}
+
+#footer {
+  height: 280px;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+  background-color: Gray;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Arvo', serif;
+  vertical-align:middle;
+}
+
+h1 {
+  font-size:50px;
+}
+
+#footer > .container > p {
+  color:White;
+}
+
+#footer > .container > p:first-child {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#footer > .container > p:nth-child(3) {
+  margin-left: 18px;
+}
+  
+/* customize navbar style */
+.navbar-brand {
+  font-family: 'Arvo', sans-serif;
+  font-size: 20px;
+}
+
+.navbar-nav li {
+  font-size: 10px;
+}
+/* navbar */
+
+.divider {
+  height:100px;
+}
+
+.gallery {
+  padding: 10px 20px 10px 20px;
+}
+
+.img-item {
+  margin-bottom: 25px;
+}
+
+img:hover {
+  opacity: 0.85;
+}
+
+section {
+  min-height: 400px;
+  height: auto !important;
+  height: 100%;
+  padding-top:150px;
+}
+
+#bg-1 {
+  background: url('../img/Rustic.jpg'); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-color: Gray;
+}
